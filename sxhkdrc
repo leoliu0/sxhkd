@@ -1,0 +1,28 @@
+alt+w
+    to_chrome.sh
+alt+z
+    to_chromium.sh
+alt+r
+    alacritty -e /mnt/da/Dropbox/scripts/hack lfcd.sh
+alt+i
+    alacritty -e btm
+alt+n
+    alacritty -e open_configs.sh
+alt+g
+    to_firefox.sh
+alt+f
+    alacritty -e tm
+alt+d
+    dmenu_run 
+alt+e
+    alacritty -e fzf_hist.sh
+alt+t
+    bm
+alt + u
+    alacritty -e yay
+alt+o
+    bkg
+alt + c
+  clipmenu
+alt +x
+  maim -i $(xdotool getactivewindow) /tmp/sc.jpg && notify-send "screenshot took"
