@@ -26,3 +26,5 @@ alt + c
   clipmenu
 alt +x
   maim -i $(xdotool getactivewindow) /tmp/sc.jpg && notify-send "screenshot took"
+alt+j
+  type_stuff.sh
